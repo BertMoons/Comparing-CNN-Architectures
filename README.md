@@ -33,6 +33,7 @@ If you like/use this comparison, please cite [Canziani et al](https://arxiv.org/
 (to appear)
 @phdthesis{moons2018Embedded,
     title={Embedded Deep Learning - Algorithms, Architectures and Circuits for Always-On Neural Network Processing},
+    author = {Bert Moons},
     advisor = {prof. Marian Verhelst}
     school=[KU Leuven},
     year={2018}
