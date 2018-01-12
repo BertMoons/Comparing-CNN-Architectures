@@ -13,11 +13,11 @@ All these images are based on the work done by [Canziani et al](https://arxiv.or
 
 **Figure 1** IMAGENET top-1 accuracy vs #flops, blob size is the model size
 
-<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_ops_modelsize.eps">
+<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_ops_modelsize.png">
 
 **Figure 2** IMAGENET top-1 accuracy vs #weights, blob size is the #flops
 
-<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_modelsize_ops.eps">
+<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_modelsize_ops.png">
 
 
 ## Remarks

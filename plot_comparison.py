@@ -39,6 +39,7 @@ plt.xlabel('# Operations [M-ops]',**hfont)
 plt.ylabel('IMAGENET top-1 [%]',**hfont)
 
 plt.savefig('./figures/accuracy_ops_modelsize.eps', format='eps')
+plt.savefig('./figures/accuracy_ops_modelsize.png', format='png')
 
 
 np.random.seed(1)
@@ -71,7 +72,7 @@ plt.xlim(xmin=0.1)
 plt.xlabel('Model Size [M-weights]',**hfont)
 plt.ylabel('IMAGENET top-1 [%]',**hfont)
 
-plt.savefig('./figures/accuracy_modelsize_ops.eps', format='eps')
+plt.savefig('./figures/accuracy_modelsize_ops.png', format='png')
 
 # accuracy / ops
 fig, ax = plt.subplots()
