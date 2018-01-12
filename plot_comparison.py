@@ -50,7 +50,6 @@ legend_y = np.asarray([40,40, 40, 40])
 legend_values =  np.asarray([1e1,.1e3, 10e3, 30e3])
 legend_names = np.asarray(['nan','.1G','10G','30G'])
 
-import pdb; pdb.set_trace()
 
 
 # weights, ops, accuracy
