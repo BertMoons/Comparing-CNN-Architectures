@@ -26,3 +26,15 @@ DenseNets and Multi-Scale DenseNets achieve higher accuracy at the same computat
 
 A higher amount of operations or a larger model-size does not necessarily translate in a 
 higher __energy consumption__ on an embedded platform. The real relevant comparison point would hence be top-1 accuracy vs energy/classification, which is heavily platform dependent.
+
+If you like/use this comparison, please cite [Canziani et al](https://arxiv.org/abs/1605.07678) and:
+
+```
+(to appear)
+@phdthesis{moons2018Embedded,
+    title={Embedded Deep Learning - Algorithms, Architectures and Circuits for Always-On Neural Network Processing},
+    advisor = {prof. Marian Verhelst}
+    school=[KU Leuven},
+    year={2018}
+    }
+```
