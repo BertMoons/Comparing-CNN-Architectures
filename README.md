@@ -15,16 +15,14 @@ DenseNets and Multi-Scale DenseNets achieve higher accuracy at the same computat
 
 
 
-
-<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_ops_modelsize.png">
 **Figure 1** IMAGENET top-1 accuracy vs #flops, blob size is the model size
+<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_ops_modelsize.png">
 
-
-<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_modelsize_ops.png">
 **Figure 2** IMAGENET top-1 accuracy vs #weights, blob size is the #flops
+<img src="https://raw.githubusercontent.com/BertMoons/Comparing-CNN-Architectures/master/figures/accuracy_modelsize_ops.png">
+
 
 ## Remarks
 
 A higher amount of operations or a larger model-size does not necessarily translate in a 
-higher __energy consumption__ on an embedded platform. The real relevant comparison point would  
-hence be top-1 accuracy vs energy/classification, which is heavily platform dependent.
+higher __energy consumption__ on an embedded platform. The real relevant comparison point would hence be top-1 accuracy vs energy/classification, which is heavily platform dependent.
