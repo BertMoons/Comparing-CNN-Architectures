@@ -70,7 +70,7 @@ plt.xlim(xmin=0.1)
 
 plt.xlabel('Model Size [M-weights]',**hfont)
 plt.ylabel('IMAGENET top-1 [%]',**hfont)
-
+plt.savefig('./figures/accuracy_modelsize_ops.eps', format='eps')
 plt.savefig('./figures/accuracy_modelsize_ops.png', format='png')
 
 # accuracy / ops
@@ -85,6 +85,7 @@ plt.gcf().subplots_adjust(bottom=bottom_adjustment)
 
 plt.ylabel('Accuracy / M-Ops',**hfont)
 plt.savefig('./figures/accuracy_per_op.eps', format='eps')
+plt.savefig('./figures/accuracy_per_op.png', format='png')
 
 # accuracy / M-weights
 fig, ax = plt.subplots()
@@ -98,6 +99,7 @@ plt.gcf().subplots_adjust(bottom=bottom_adjustment)
 
 plt.ylabel('Accuracy / M-Weights',**hfont)
 plt.savefig('./figures/accuracy_per_weight.eps', format='eps')
+plt.savefig('./figures/accuracy_per_weight.png', format='png')
 
 # weights
 fig, ax = plt.subplots()
@@ -111,6 +113,7 @@ plt.gcf().subplots_adjust(bottom=bottom_adjustment)
 
 plt.ylabel('Number of Weights [M-Weights]',**hfont)
 plt.savefig('./figures/weights.eps', format='eps')
+plt.savefig('./figures/weights.png', format='png')
 
 # operations
 fig, ax = plt.subplots()
@@ -124,6 +127,7 @@ plt.gcf().subplots_adjust(bottom=bottom_adjustment)
 
 plt.ylabel('Number of Operations [M-Ops]',**hfont)
 plt.savefig('./figures/operations.eps', format='eps')
+plt.savefig('./figures/operations.png', format='png')
 
 # accuracy
 fig, ax = plt.subplots()
@@ -136,6 +140,7 @@ plt.gcf().subplots_adjust(bottom=bottom_adjustment)
 plt.ylim(ymin=30,ymax=90)
 plt.ylabel('ImageNet top-1 accuracy [%]',**hfont)
 plt.savefig('./figures/top1_accuracy.eps', format='eps')
+plt.savefig('./figures/top1_accuracy.png', format='png')
 
 
 plt.show()
