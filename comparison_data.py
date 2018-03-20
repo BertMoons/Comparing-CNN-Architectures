@@ -29,4 +29,7 @@ data = np.array([
     ['MSD-B', nan, 2*125, 71],
     ['MSD-C', nan, 2*210, 75],
     ['MSD-D', nan, 2*320, 76],
-    ['VGG-16',138, 31e3, 71]],dtype=object)
+    ['VGG-16',138, 31e3, 71], 
+    ['MobNetV2-1',3.4,300,71.7],
+    ['MobNetV2-1.4',6.9,585,74.7],
+    ],dtype=object)

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1e0142e-61fe-455d-853a-f06250e87555" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../comparison_data.py" afterPath="$PROJECT_DIR$/../comparison_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../plot_comparison.py" afterPath="$PROJECT_DIR$/../plot_comparison.py" />
-    </list>
+    <list default="true" id="b1e0142e-61fe-455d-853a-f06250e87555" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="comparison_data.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="comparison_data.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../comparison_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="510">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -31,24 +26,11 @@
       <file leaf-file-name="plot_comparison.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../plot_comparison.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="548">
+              <caret line="99" column="78" lean-forward="false" selection-start-line="99" selection-start-column="78" selection-end-line="99" selection-end-column="78" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="595">
-                <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -61,14 +43,17 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../../../plot_comparison.py" />
+        <option value="$PROJECT_DIR$/../../../comparison_data.py" />
+        <option value="$PROJECT_DIR$/../../../README.md" />
+        <option value="$PROJECT_DIR$/../../comparison_data.py" />
         <option value="$PROJECT_DIR$/../plot_comparison.py" />
         <option value="$PROJECT_DIR$/../comparison_data.py" />
-        <option value="$PROJECT_DIR$/../README.md" />
       </list>
     </option>
   </component>
@@ -94,19 +79,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="comparing_network_efficiencies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
               <item name="comparing_network_efficiencies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -129,12 +114,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../.." />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="comparing_network_efficiencies" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../plot_comparison.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../plot_comparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +144,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="25" width="1904" height="1054" extended-state="6" />
+    <frame x="-2" y="25" width="1904" height="1034" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -192,30 +178,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../comparison_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../comparison_data.py" />
+    <entry file="file://$PROJECT_DIR$/../../../plot_comparison.py" />
+    <entry file="file://$PROJECT_DIR$/../../../plot_comparison.py" />
+    <entry file="file://$PROJECT_DIR$/../../../comparison_data.py" />
+    <entry file="file://$PROJECT_DIR$/../../../README.md" />
+    <entry file="file://$PROJECT_DIR$/../../plot_specs.py" />
+    <entry file="file://$PROJECT_DIR$/../../plot_comparison.py" />
+    <entry file="file://$PROJECT_DIR$/../../comparison_data.py" />
     <entry file="file://$PROJECT_DIR$/../plot_comparison.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../plot_comparison.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="548">
+          <caret line="99" column="78" lean-forward="false" selection-start-line="99" selection-start-column="78" selection-end-line="99" selection-end-column="78" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -224,22 +198,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../comparison_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="595">
-            <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

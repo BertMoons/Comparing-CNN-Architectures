@@ -6,6 +6,7 @@ import matplotlib.cm as cm
 
 degrees = 65
 bottom_adjustment = 0.2
+fsize = 10
 
 hfont = {'fontname':'Arial'}
 
@@ -80,12 +81,14 @@ I = np.argsort(np.divide(data[:,3].astype(float),data[:,2].astype(float)))
 ax.bar(range(data.shape[0]),accuracy_ops_data,color=colors[I])
 ax.grid()
 ax.set_yscale('log')
-plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees)
+plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees,fontsize=fsize)
 plt.gcf().subplots_adjust(bottom=bottom_adjustment)
+plt.xlim(xmin=-1,xmax=data.shape[0]+1)
 
 plt.ylabel('Accuracy / M-Ops',**hfont)
 plt.savefig('./figures/accuracy_per_op.eps', format='eps')
 plt.savefig('./figures/accuracy_per_op.png', format='png')
+
 
 # accuracy / M-weights
 fig, ax = plt.subplots()
@@ -94,8 +97,9 @@ I = np.argsort(np.divide(data[:,3].astype(float),data[:,1].astype(float)))
 ax.bar(range(data.shape[0]),accuracy_weight_data,color=colors[I])
 ax.grid()
 ax.set_yscale('log')
-plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees)
+plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees,fontsize=fsize)
 plt.gcf().subplots_adjust(bottom=bottom_adjustment)
+plt.xlim(xmin=-1,xmax=data.shape[0]+1)
 
 plt.ylabel('Accuracy / M-Weights',**hfont)
 plt.savefig('./figures/accuracy_per_weight.eps', format='eps')
@@ -110,6 +114,7 @@ ax.grid()
 ax.set_yscale('log')
 plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees)
 plt.gcf().subplots_adjust(bottom=bottom_adjustment)
+plt.xlim(xmin=-1,xmax=data.shape[0]+1)
 
 plt.ylabel('Number of Weights [M-Weights]',**hfont)
 plt.savefig('./figures/weights.eps', format='eps')
@@ -124,6 +129,7 @@ ax.grid()
 ax.set_yscale('log')
 plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees)
 plt.gcf().subplots_adjust(bottom=bottom_adjustment)
+plt.xlim(xmin=-1,xmax=data.shape[0]+1)
 
 plt.ylabel('Number of Operations [M-Ops]',**hfont)
 plt.savefig('./figures/operations.eps', format='eps')
@@ -135,9 +141,10 @@ ops = np.sort(data[:,3].astype(float))
 I = np.argsort(data[:,3].astype(float))
 ax.bar(range(data.shape[0]),ops,color=colors[I])
 ax.grid()
-plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees)
+plt.xticks(np.arange(data.shape[0]), data[I,0],rotation=degrees,fontsize=fsize)
 plt.gcf().subplots_adjust(bottom=bottom_adjustment)
 plt.ylim(ymin=30,ymax=90)
+plt.xlim(xmin=-1,xmax=data.shape[0]+1)
 plt.ylabel('ImageNet top-1 accuracy [%]',**hfont)
 plt.savefig('./figures/top1_accuracy.eps', format='eps')
 plt.savefig('./figures/top1_accuracy.png', format='png')
