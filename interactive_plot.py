@@ -37,7 +37,6 @@ ax.set_ylabel('IMAGENET top-1 [%]',**hfont)
 
 #labels = ['{} , {} M-ops, {} M-wghts, {}%'.format(data[i,0],data[i,2],data[i,1],data[i,3]) for i in range(N)]
 labels = [data[i,0] for i in range(N)]
-import pdb; pdb.set_trace()
 tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
 mpld3.plugins.connect(fig, tooltip)
 
