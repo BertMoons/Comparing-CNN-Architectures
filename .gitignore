@@ -1,4 +1,5 @@
 *.pyc
 plot_vs_time.py
 plot_specs.py
+*.py~
 
