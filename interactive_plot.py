@@ -40,4 +40,6 @@ labels = [data[i,0] for i in range(N)]
 tooltip = mpld3.plugins.PointLabelTooltip(scatter, labels=labels)
 mpld3.plugins.connect(fig, tooltip)
 
+mpld3.save_html(plt.gcf(),"interactive_plot.html")
+
 mpld3.show()
