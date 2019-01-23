@@ -16,15 +16,15 @@ area = np.pi *(20*data[:,1].astype(float))
 
 legend_x = np.asarray([800,1500, 2500, 7000, 35000])
 legend_y = np.asarray([40,40, 40, 40, 40])
-legend_values =  np.asarray([0.1,1, 10, 50, 100])
+legend_values = np.asarray([0.1,1, 10, 50, 100])
 legend_names = np.asarray(['nan','1M','10M','50M','100M'])
 
 
 # weights, ops, accuracy
 fig, ax = plt.subplots()
 ax.scatter(data[:,2].astype(float),data[:,3].astype(float),s=area, c=colors)
-ax.scatter(legend_x,legend_y, legend_values*(area[0]/data[0,1]),c=[1,1,1])
-ax.scatter(data[:,2].astype(float),data[:,3].astype(float),s=5, c=[1,1,1])
+ax.scatter(legend_x,legend_y, s=legend_values*(area[0]/data[0,1]),c=[[1,1,1]], edgecolors=[[0,0,0]])
+ax.scatter(data[:,2].astype(float),data[:,3].astype(float),s=5, c=[[1,1,1]])
 ax.grid()
 ax.set_xscale('log')
 
@@ -32,7 +32,11 @@ for i, txt in enumerate(data[:,0]):
   ax.annotate(txt,xy=(data[:,2][i]+5,data[:,3][i]),**hfont)
 
 for i, txt in enumerate(legend_names):
-  ax.annotate(txt,xy=(legend_x[i]+5,legend_y[i]-2),**hfont)
+  ax.annotate(txt, xy=(legend_x[i], legend_y[i] + (1 if i < 2 else 0)),
+              verticalalignment='center', horizontalalignment='center', **hfont)
+
+ax.annotate('#Weights:', xy=(legend_x[0]*0.8, legend_y[0]),
+            verticalalignment='center', horizontalalignment='right', **hfont)
 
 plt.xlim(xmin=10)
 
@@ -49,14 +53,14 @@ area = np.pi *(0.1*data[:,2].astype(float))
 legend_x = np.asarray([15, 25, 70, 350])
 legend_y = np.asarray([40,40, 40, 40])
 legend_values =  np.asarray([1e1,.1e3, 10e3, 30e3])
-legend_names = np.asarray(['nan','.1G','10G','30G'])
+legend_names = np.asarray(['nan','0.1G','10G','30G'])
 
 
 
 # weights, ops, accuracy
 fig, ax = plt.subplots()
 ax.scatter(data[:,1].astype(float),data[:,3].astype(float),s=area, c=colors)
-ax.scatter(legend_x,legend_y, legend_values*(area[0]/data[0,2]),c=[1,1,1])
+ax.scatter(legend_x,legend_y, legend_values*(float(area[0])/data[0,2]),c=[[1,1,1]], edgecolors=[[0,0,0]])
 ax.scatter(data[:,1].astype(float),data[:,3].astype(float),s=5, c=[1,1,1])
 ax.grid()
 ax.set_xscale('log')
@@ -65,7 +69,10 @@ for i, txt in enumerate(data[:,0]):
   ax.annotate(txt,xy=(data[:,1][i],data[:,3][i]),**hfont)
 
 for i, txt in enumerate(legend_names):
-  ax.annotate(txt,xy=(legend_x[i],legend_y[i]-2),**hfont)
+  ax.annotate(txt,xy=(legend_x[i],legend_y[i]+(1 if i<2 else 0)),
+              verticalalignment='center', horizontalalignment='center', **hfont)
+ax.annotate('#Ops:', xy=(legend_x[0]*0.8, legend_y[0]),
+            verticalalignment='center', horizontalalignment='right', **hfont)
 
 plt.xlim(xmin=0.1)
 
